@@ -6,17 +6,17 @@ header{
     top: 0;
 }
 .info{
-    margin: 10em 7em;
+    margin: 10em 0;
     display: flex;
     align-items: center;
 }
 .information{
     width: 100%;
-    padding-left: 3em;
+    padding: 1em
 }
 .p{
     font-size: 21px;
-    width: 40em;
+    width: 100%;
     color: white;
 }
 .information span{
@@ -28,4 +28,22 @@ header{
     width:19em;
     height: 19em;
     border: 5px solid white;
+}
+@media (max-width: 865px){
+    .info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 360px){
+    .info img{
+        width: 17em;
+        height: 17em;
+    }
+}
+@media (max-width: 327px){
+    .info img{
+        width: 15em;
+        height: 15em;
+    }
 }
