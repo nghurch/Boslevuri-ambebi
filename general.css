@@ -4,7 +4,6 @@ header img{
     border-radius: 25px;
     margin-left: 20px;
 }
-
 header{
     position: fixed;
     background-color:transparent;
@@ -38,6 +37,7 @@ body{
     margin-right: 20px;
     display: flex;
     flex-shrink: 0;
+    width: 11em;
 }
 .english{
     font-size: 15px;
@@ -47,10 +47,43 @@ body{
     background-color: rgb(5, 113, 156);
     box-shadow: 0 0 5px white;
     color: white;
-    padding: 12px 20px;
+    width: 100%;
+    height: 3em;
     cursor: pointer;
     font-family: arial;
     font-weight: bold;
+}
+@media (max-width: 607px){
+    .english{
+        font-size: 13px;
+    }
+    .sign-up{
+        font-size: 10px;
+    }
+    header img {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .left-side h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 460px){
+    .english{
+        font-size: 12px;
+    }
+    .sign-up{
+        font-size: 5px;
+    }
+    header img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .left-side h2{
+        font-size: 17px;
+    }
 }
 .sign-up{
     font-size: 15px;
@@ -59,7 +92,7 @@ body{
     background-color: rgb(5, 113, 156);
     box-shadow: 0 0 5px white;
     color: white;
-    padding: 12px 20px;
+    width: 100%;
     cursor: pointer;
     font-family: arial;
     font-weight: bold;
