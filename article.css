@@ -1,0 +1,67 @@
+article{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/ბსლვ.jpg);
+    background-size: 100%;
+}
+article::after{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.main-container{
+    z-index: 2;
+    width: 100%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+}
+.you-ready p{
+    font-size: 17px;
+}
+.container{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 500px;
+}
+
+.become-bosleveli{
+    width: 100%;
+}
+.become-bosleveli h1{
+    font-family: cursive;
+}
+.maloft{
+    padding: 15px;
+    border: none;
+    border-top-left-radius: 6px ;
+    border-bottom-left-radius: 6px;
+    font-size: 18px;
+    width: 70%;
+}
+.get-started{
+    padding: 15px;
+    border: none;
+    background-color: rgb(5, 113, 156);
+    color: white;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius:6px ;
+    font-size: 18px;
+    width: 30%;
+}
+.inputs{
+    display: flex;   
+    padding: 0 7px; 
+}
+@media (max-width: 367px){
+    .main-container{
+       width: 1em;
+    }
+}

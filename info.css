@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+header{
+    top: 0;
+}
+.info{
+    margin: 10em 7em;
+    display: flex;
+    align-items: center;
+}
+.information{
+    width: 100%;
+    padding-left: 3em;
+}
+.p{
+    font-size: 21px;
+    width: 40em;
+    color: white;
+}
+.information span{
+    font-size: 25px;
+    color: rgb(5, 113, 156);;
+}
+.info img{
+    border-radius: 200px;
+    width:19em;
+    height: 19em;
+    border: 5px solid white;
+}
