@@ -59,6 +59,7 @@ body{
     }
     .sign-up{
         font-size: 10px;
+        font-weight: none;
     }
     header img {
         width: 40px;
@@ -74,7 +75,8 @@ body{
         font-size: 12px;
     }
     .sign-up{
-        font-size: 3px;
+        font-size: 7px;
+        font-weight: none;
     }
     header img {
         width: 30px;
