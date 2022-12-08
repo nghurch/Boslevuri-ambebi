@@ -41,7 +41,7 @@ body{
 }
 .english{
     font-size: 15px;
-    margin: 0 10px;
+    margin: 0 4px;
     border: none;
     border-radius: 6px;
     background-color: rgb(5, 113, 156);
@@ -57,10 +57,6 @@ body{
     .english{
         font-size: 13px;
     }
-    .sign-up{
-        font-size: 10px;
-        font-weight: none;
-    }
     header img {
         width: 40px;
         height: 40px;
@@ -74,10 +70,6 @@ body{
     .english{
         font-size: 12px;
     }
-    .sign-up{
-        font-size: 7px;
-        font-weight: none;
-    }
     header img {
         width: 30px;
         height: 30px;
@@ -87,15 +79,4 @@ body{
         font-size: 17px;
     }
 }
-.sign-up{
-    font-size: 15px;
-    border: none;
-    border-radius: 6px;
-    background-color: rgb(5, 113, 156);
-    box-shadow: 0 0 5px white;
-    color: white;
-    width: 100%;
-    cursor: pointer;
-    font-family: arial;
-    font-weight: bold;
-}
+
