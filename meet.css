@@ -43,23 +43,30 @@
     height: 16em;
     padding: 1em;
 }
-.profile p{
-    width:15em;
+.meet-text{
+    width: 100%;
+}
+.meet-text p{
+    width:100px;
     margin: 0;
     z-index: 2;
     font-family: cursive;
     font-weight: bold;
     color: black;
-    position: absolute;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0 10px;
 }
+.proflie a {
+    z-index: 1;
+}
 .profile span{
+    z-index: 2;
     width: 100%;
     display: flex;
     font-size: 18px;
     color: white;
-    margin-top: -5px;
+    margin-top: -20px;
+    padding: 0 10px;
 }
 .name{
     margin-top: 10px;
@@ -105,11 +112,15 @@
         width: 10em;
         height: 12em;
     }
-    .profile span{
-        font-size: 14px;
+    .meet-members p {
+        font-size: 12px;
+    }
+    .meet-members span{
+        font-size: 12px;
+        margin-top: -4px;
     }
 }
-@media (max-width: 215px){
+@media (max-width: 216px){
     .profile-container{
         grid-template-columns: 0.2fr  ;        
     }
@@ -118,9 +129,6 @@
         width: 10em;
         height: 12em;
         padding: 1em;
-    }
-    .profile p{
-        font-size: 14px;
     }
 }
 
