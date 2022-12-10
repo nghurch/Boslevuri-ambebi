@@ -1,6 +1,9 @@
 .meet-members{
     height: 44em;
 }
+.profile a{
+   text-decoration: none;
+}
 .text-member{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
