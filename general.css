@@ -13,7 +13,9 @@ header{
     align-items: center;
     z-index: 5;
 }
-
+header a{
+   text-decoration: none;
+}
 article{
     z-index: 2;
     margin: 0;
