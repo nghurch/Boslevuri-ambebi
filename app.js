@@ -159,12 +159,12 @@ const questions = [
     ]
   },
   {
-    question: '?',
+    question: 'ამ კითხვას თუ გასცემ პასუხს დასქრინე და ანას გაუგზავნე, ის გადაწყვეტს გახდები თუარა ბოსლეველი, შეკითხვა : ვის უცურავია ნინის ძუძუებში ?',
     answers: [
-      { text: 'თაზოვიჩს', correct: false },
-      { text: 'პატარა გიო', correct: true },
-      { text: 'პრავდა', correct: false },
-      { text: 'გიო', correct: false }
+      { text: 'ბექას', correct: false },
+      { text: 'რეზოს', correct: false },
+      { text: 'ანდრიას', correct: false },
+      { text: 'სამივეს', correct: true }
     ]
   }
 ]
